@@ -1,10 +1,17 @@
 $( document ).ready(function() {
 
+// sets variables to be added to each time the color's corresponding button is clicked
 var red = 0;
 var yellow = 0;
 var green = 0;
 var blue = 0;
 
+// // These onClick functions do the following, in order: 1) create a new object to
+//    hold the code that will be added inside the container div; 2) append that code
+//    inside the container div; 3) add 1 to the color counter; 4) create a new object
+//    to hold the current value of the counter variable; 5) empty the content inside the
+//    current html counter <p>; 6) append the new code into that <p> which updates the
+//    counter value.
 $('body').on('click', '#red1', function() {
   var $redBox = $('<div class="redBox color-cube"></div>' );
   $('.container').append($redBox);
