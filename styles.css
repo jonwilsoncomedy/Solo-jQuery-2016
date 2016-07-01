@@ -5,18 +5,18 @@
   border: 1px solid black;
 }
 
-.red {
+.redBox {
   background-color: red;
 }
 
-.yellow {
+.yellowBox {
   background-color: yellow;
 }
 
-.green {
+.greenBox {
   background-color: green;
 }
 
-.blue {
+.blueBox {
   background-color: blue;
 }
